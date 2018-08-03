@@ -13,11 +13,9 @@ class GoogleMap extends Component {
 
     render() {
         // this ref attribute is used by react as a reference ot an
-        // element that has be rendered to the page : this.refs.map
+        // element that has been rendered to the page : this.refs.map
         return (
-            <div>
             <div ref="map" />
-            </div>
         );
 
     }
